@@ -164,7 +164,7 @@ npm run build      # ou yarn build, pnpm build, bun build
 ## ❓ FAQ
 
 **Q: [lecheminduscript]?**  
-R: A changer par le chemin (path) du script, là où il est, par exemple: C:\\.cursor\scripts\React_advanced_front.py.
+R: A changer par le chemin (path) du script, là où il est, par exemple: C:\\.cursor\scripts\.
 
 **Q: Pourquoi dois-je répondre 'n' aux questions de Vite?**  
 R: Le script automatise la configuration complète du projet. Répondre 'yes' installerait les dépendances deux fois et démarrerait le serveur, ce qui casserait le flux du script.
