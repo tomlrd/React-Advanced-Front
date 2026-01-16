@@ -17,7 +17,7 @@ Un script Python pour initialiser rapidement un projet Vite + React TypeScript a
 
 ### Méthode 2: Via le Terminal
 ```bash
-python D:\.cursor\scripts\React_advanced_front.py
+python [lecheminduscript]\React_advanced_front.py
 ```
 
 ### Méthode 3: Créer une Task Globale (pour tous les projets)
@@ -37,7 +37,7 @@ Pour avoir accès au script depuis n'importe quel projet Cursor, créez une task
     "type": "shell",
     "command": "python",
     "args": [
-        "D:\\.cursor\\scripts\\React_advanced_front.py"
+        "[lecheminduscript]\\React_advanced_front.py"
     ],
     "presentation": {
         "reveal": "always",
@@ -70,7 +70,7 @@ Pour avoir accès au script depuis n'importe quel projet Cursor, créez une task
 2. Naviguez vers le dossier où créer le projet
 3. Exécutez:
 ```bash
-python D:\.cursor\scripts\React_advanced_front.py
+python [lecheminduscript]\React_advanced_front.py
 ```
 
 ### Méthode 2: Via les Tasks
@@ -86,7 +86,7 @@ python D:\.cursor\scripts\React_advanced_front.py
             "type": "shell",
             "command": "python",
             "args": [
-                "D:\\.cursor\\scripts\\React_advanced_front.py"
+                "[lecheminduscript]\\React_advanced_front.py"
             ],
             "presentation": {
                 "reveal": "always",
@@ -162,6 +162,9 @@ npm run build      # ou yarn build, pnpm build, bun build
 ```
 
 ## ❓ FAQ
+
+**Q: [lecheminduscript]?**  
+R: A changer par le chemin (path) du script, là où il est, par exemple: C:\\.cursor\scripts\React_advanced_front.py.
 
 **Q: Pourquoi dois-je répondre 'n' aux questions de Vite?**  
 R: Le script automatise la configuration complète du projet. Répondre 'yes' installerait les dépendances deux fois et démarrerait le serveur, ce qui casserait le flux du script.
