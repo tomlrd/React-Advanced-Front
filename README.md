@@ -2,6 +2,8 @@
 
 Un script Python pour initialiser rapidement un projet Vite + React TypeScript avec toutes les dépendances nécessaires (Tailwind CSS, TanStack Query, Vitest, etc.).
 
+<img src="https://raw.githubusercontent.com/tomlrd/React-Advanced-Front/refs/heads/main/gifreact.gif" alt="React Advanced Front Demo" width="600"/>
+
 ## 📋 Prérequis
 
 - **Node.js** v20+
